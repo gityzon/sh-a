@@ -4,7 +4,7 @@
 
 `PREVIEW WEB`
 
-在"PREVIEW"中，"Preview in a new window"可以打开根据项目名称分配的*.glitch.me的Alist Web页面
+在"PREVIEW"中，"Preview in a new window"可以打开根据项目名称分配的Alist Web页面
 
 
 
