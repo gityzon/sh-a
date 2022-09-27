@@ -1,10 +1,11 @@
 {
   "force": false,
   "address": "0.0.0.0",
-  "port": 3000,
-  "assets": "/",
-  "local_assets": "",
-  "sub_folder": "",
+  "port": 5244,
+  "site_url": "",
+  "cdn": "",
+  "jwt_secret": "sz01AkTpx0qqBDO7",
+  "token_expires_in": 48,
   "database": {
     "type": "sqlite3",
     "host": "",
@@ -21,9 +22,13 @@
     "cert_file": "",
     "key_file": ""
   },
-  "cache": {
-    "expiration": 60,
-    "cleanup_interval": 120
-  },
-  "temp_dir": "data/temp"
+  "temp_dir": "data/temp",
+  "log": {
+    "enable": true,
+    "name": "log/log.log",
+    "max_size": 10,
+    "max_backups": 5,
+    "max_age": 28,
+    "compress": false
+  }
 }
