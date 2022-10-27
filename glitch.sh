@@ -13,7 +13,7 @@ if [ ! -f "alist" ];then
 {
   "force": false,
   "address": "0.0.0.0",
-  "port": 5244,
+  "port": 3000,
   "site_url": "",
   "cdn": "",
   "jwt_secret": "sz01AkTpx0qqBDO7",
