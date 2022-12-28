@@ -1,3 +1,8 @@
+#！警告：replit免费版中所有代码都是公开可见的，建议使用edu版部署
+#如何更新Alist：
+#1.做好备份
+#2.删除 alist 这个程序
+#3.重启（refresh）
 
 if [ ! -f "alist" ];then
   #download alist lastest
