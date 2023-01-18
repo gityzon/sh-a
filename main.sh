@@ -11,7 +11,7 @@ if [ ! -f "alist" ];then
   rm -f alist.tar.gz
   chmod 777 alist
   
-  #download config(listen on port 3000)
+  #config(listen on port 3000)
   mkdir data
   cd data
   cat > config.json <<EOF
